@@ -1,0 +1,86 @@
+---
+authors:
+  - name: null
+---
+
+# 1 Introduction to the GIS Guide
+
+## 1.1 How to use this Guide
+
+### 1.1.1 Why a GIS Guide to Good Practice?
+
+This document is designed specifically to provide guidance for individuals and organisations involved in the creation, maintenance, use and long-term preservation of GIS-based digital resources. It should be noted that although the overall emphasis is upon archaeological data, the information presented has much wider disciplinary implications.
+
+As well as providing a source of useful generic information, the guide emphasises the processes of long-term preservation, archiving and effective data re-use. As a result, the importance of adhering to recognised standards and the recording of essential pieces of information about a given resource are dominant recurring themes throughout the discussions. The latter are designed to smooth the transition of the digital resource into an archive environment and to ensure that data can be re-located and re-used in the future.
+
+It is important to realise that the current document is one component of a set of theme-specific guides, some of which contain much more detailed discussions of many of the topics outlined here, such as the integration of satellite images, and the precise formats and convention standards used within CAD layers. Although each guide, whether concerned with GIS, CAD, geophysical survey or remote sensing, is specifically designed to be self-contained, taken together they comprise a comprehensive, authoritative and highly complementary set of practical guidelines.
+
+In outlining the aims of this document, it is equally important to state what the current guide does not cover. It does not aim to constitute an exhaustive introduction to the underlying origin, theory and technical implementation of GIS. Nor is it in any way a definitive and prescriptive manual on how 'best' to undertake GIS. Although the importance of standards and data frameworks will be rightly emphasised, the aim of the guide is to introduce practitioners to areas and issues where standards and frameworks already exist and may be applicable, and to identify the relevant sources of information that may be consulted. Whilst optimum pathways will often be identified, the guide does not rigidly advocate any single standard or narrow set of options. Instead, the concern here is more generic, with the aim of encouraging and developing the routine use of standards and data frameworks as a whole. In this sense it is important to realise that the present document constitutes a 'guide' as opposed to a 'manual'.
+
+It is also important to note that this guide is concerned solely with archaeological data and GIS, whether derived from excavation, regional survey, archival research, intra-site analysis or any other archaeological endeavour. It is not concerned with the integration, archiving and accessing of data destined for study, maintenance and future re-use within CAD systems.
+
+### 1.1.2 How to use this Guide
+
+Ideally any individual or institution involved with, or planning, a GIS-based exercise with the long-term aim of depositing the resultant data with a digital archive should read the guide in its entirety along with the complimentary sections that form the introduction to the entire set of Guides. In many cases, however, practitioners will only be dealing with one particular stage of the overall process and, to reflect this, the guide has been structured into clear thematic sections. Individuals are advised to read the sections relevant to the task at hand carefully.
+
+As has been mentioned, throughout the sections are lists of information and metadata that it is critical to record for the purposes of producing an efficient, well-documented GIS database and for ensuring that the resources generated can be effectively archived and made available for re-use. This information is presented in a tabulated format within the main body of the sections but it is also crucially important to realise the cumulative nature of metadata. For example, if a practitioner's immediate concern is with the integration of a number of paper maps into a GIS, using a digitiser to create a number of vector layers, they should take careful note of the following:
+
+* Maps and Plans [Sub-section 2.5.1](creatingandusinggisdata#id-2-5-1-maps-and-plans)
+* The Vector data model [Sub-section 2.1](creatingandusinggisdata#id-2-1-data-types-vector-and-raster-models)
+* Digitising [Sub-section 2.5](creatingandusinggisdata#id-2-5-sources-of-data)
+* Structuring, organising and maintaining information [2.1](creatingandusinggisdata#id-2-1-data-types-vector-and-raster-models)
+
+To assist this process of identifying relevant information and to ensure that adequate metadata is recorded, [Appendix 2](appendix2) contains a number of optimum pathways, like that illustrated above, which guide users through some of the more common GIS-related tasks and operations.
+
+### 1.1.3 The Thematic Sections
+
+To enable practitioners to target the individual sections most relevant to the particular task at hand, the aims of each section are summarised here:
+
+* [Section 1](introductiontothegisguide) provides a brief introduction to the role of GIS within archaeology, containing many pointers to important core references and fundamental texts. The aim of this section is to provide a contextual background to GIS in archaeology. 
+
+* The aim of [Section 2](creatingandusinggisdata) is to discuss the principle types of primary spatial and attribute data, common sources of these data, and the processes by which they can be integrated within a GIS environment. This section also discusses the procedures and considerations involved in the effective structuring, organisation and maintenance of an active GIS database are discussed. In addition, suggestions for working with derived data are introduced. Section 2 also covers the importance of careful documentation. In effect what to record and when, in order to facilitate the convenient discovery and re-use of both active and archival GIS-based data resources. The concepts of documentation and metadata will be explored and discussed together with a working introduction to the Dublin Core metadata standard for resource discovery. 
+
+* [Section 3](archivinggisdatasets) contains a practical discussion on how to deposit and catalogue datasets. This includes a detailed introduction to the creation of metadata records and should serve as a general example of how to prepare GIS data for a digital archive. 
+
+A carefully selected set of bibliographic references is also provided to enable individuals to study topics in more detail. In addition an internal glossary is also presented.
+
+
+## 1.2 Applications of GIS in Archaeology
+
+The explosion of interest in GIS since the 1990's reflects the importance of space, spatial concepts and spatial modelling, both in the present and in the past. Although the technology of managing and analysing spatial data is now a multi-million dollar industry - which, it should be noted, pays scant regard to the specific requirements of archaeologists - our discipline has been innovative and proactive in developing its own applications of GIS. This section will serve to trace the main developments in this process, illustrating the evolving shape of GIS applications within archaeology. As will be seen, these cover a wide range of approaches and serve to emphasise the breadth and diversity of such applications within the discipline.
+
+### 1.2.1 Some Core References
+
+Throughout the discussion reference will be made to a carefully selected set of mainstream references that should be easily accessible. The following four volumes of published conference papers (in order of conference not publication: [@allen1990interpreting; @aldenderfer1996anthropology; @maschner1996geographic; @lock1995archaeology]) act as a useful core framework. These provide a considerable range of case-studies and theoretical discussions together with valuable overviews of the development of GIS in archaeology (for example, [@harris1990diffusion; @kvamme1995view; @harris1995toward; @maschner1996geographic]). Another important source of references are the proceedings of the annual Computer Applications in Archaeology conference (CAA), which saw its first GIS paper in 1986. From 1992 CAA became more international and all aspects of the theory and application of GIS now form a major component of its programme (the proceedings in order from 1986 until 1995 are: [@laflin1986computer; @ruggles1988computer; @rahtz1988computer; @rahtz1989computer; @lockyear1991computer; @lock1992computer; @andresen1993computing; @wilcock1995computer; @huggett1995computer; @kamermans1996interfacing]. Two particularly useful web-based resources are GIS in Archaeology Bibliography 1995 and a list of Archaeologists using GIS.
+
+### 1.2.2 The Early Years and Spatial Statistics
+
+The first archaeological use of GIS was in North America, where it developed within the requirements of cultural resource management based on the predictive modelling of site location [@kohler1986predictive]. The statistics involved were well suited to raster data models and effective methodologies and results were rapidly accumulated [@kvamme1988geographic; @kvamme1990fundamental; @warren1990predictive]. More recently there has been interest in these approaches in The Netherlands [@brandt1992experiment; @leusen1996gis], and @wheatley1993going has incorporated cultural data to overcome a major criticism concerning the emphasis on environmental data and the resultant accusations that such studies fostered an uncritical environmental determinism.
+
+Although it has been recognised for a long time that the GIS environment is an ideal medium for the development of new approaches to spatial analysis there are very few formal statistical methods generally available [@openshaw1991developing; @fotheringham1994spatial], since most commercial GIS packages lack the most basic statistical facilities. Within archaeology there is an emphasis on cell-based manipulation as an extension of the earlier work, for example auto-correlation [@kvamme1993spatial], statistics and simulation [@kvamme1996investigating], perhaps within the wider procedures of cartographic modelling [@tomlin1990geographic, generally; @leusen1993cartographic].
+
+### 1.2.3 Landscapes, Present and Past
+
+The archaeological awakening to GIS and the resulting rapid increase in applications started with the publication of Interpreting Space [@allen1990interpreting]. Since then, in very general terms, there have been two streams of development which can be categorised as Cultural Resource Management (CRM) and landscape analysis. While any definition of GIS will undoubtedly emphasise analytical capabilities (@martin1996geographic for an introduction), it must be recognised that a major strength of the software lies in its ability to integrate and manage large and diverse data-sets. The integration and georeferencing of different types of spatial data over large geographical areas, typically a region or even a whole country, together with textual databases is a central concern of CRM. This is usually based on statutory obligations and frequently involves the integration of data sources at a range of varying scales. As a result of the flexibility and strength of these data management capabilities it is not surprising that in the majority of cases, though by no means exclusively, analysis is relegated to a secondary role.
+
+The potential of GIS in CRM was recognised by many countries at a conference in 1991 [@larsen1992sites], and has since been realised by some of them, for example France [@guillot1995use], The Netherlands [@roorda1992towards] and Scotland [@murray1995management]. The adoption of GIS by national and regional CRM organisations is a complex business, often embroiled within a range of concerns including information strategies (not least upgrading from an existing system), communications and standards, politics and funding. There has been a great deal of published discussion about these wider issues including European Union initiatives [@leusen1995gis], various data models [@arroyo1995will; @lang1992sites] and the issues involved in the restructuring of an existing database [@robinson1993archaeological].
+
+While CRM systems are usually based upon a vector data model, they often need to incorporate a number of raster data layers into the database, for example the integration of aerial photographs into the Scottish National Monuments Record [@murray1995geographic]. Other common raster data-layers that could be encountered include the results of geophysical survey (a good example of this, although not strictly CRM, is the Wroxeter Hinterland Project [@gaffney1996mapping] and satellite imagery [@cox1992satellite; @gaffney1996satellite]).
+
+Within the field of non-CRM landscape applications there are a considerable number that utilise the mapping capabilities of GIS rather than any of its analytical functionality. Even so, analysis can be central to GIS-based landscape studies, as demonstrated by the early case-study of the island of Hvar [@gaffney1991gis; @gaffney1992diodorus] and the seminal paper by @leusen1993cartographic, where the archaeological analyses engage a battery of techniques including various statistics and distance functions. Such applications served to generate a vigorous debate on the underlying epistemology of GIS and the symbiotic relationship between GIS and archaeological theory. This is a debate that raged in geography several years ago (@taylor1995gis, for an overview) and surfaced in archaeology as an argument against a return to positivism and environmental determinism [@wheatley1993going], both parts of an outdated theoretical stance long since rejected by the majority of archaeologists [@gaffney1995postscript].
+
+Reactions to this debate have focused on attempts to integrate current theoretical notions of landscape within GIS functionality involving various ways of effectively humanising the landscape. Initially these approaches attempted to comment on the perception and cognition of an individual situated in the landscape based on visibility and intervisibility studies involving line-of-sight and viewshed routines (for example, @gaffney1995impact, @lock1996danebury). This resulted in the development of a new technique specifically of interest to archaeology, cumulative viewshed analysis [@wheatley1995cumulative].
+
+## 1.3 Current Issues and Concerns
+
+### 1.3.1 Theory
+
+A recent consideration is that meaning is culturally embedded within a landscape [@tilley1994phenomenology] and simply identifying intervisibility between monuments and places does not constitute explanation. Meaning is a multi-faceted, qualitative, measure that cannot be reached with purely quantitative tools such as GIS. This argues for the application of the technology to be theory-driven rather than data-driven as is often the case, and as part of this ongoing debate there have been two quite different approaches. @llobera1996exploring attempted to formalise various indices of landscape topography and perception by writing new routines within a raster environment, in effect introducing formal methods which are embedded within a social theory of being in the landscape and of the humanisation of space. The other work, while rooted in much of the same theory [@gillings1996sensuous], proposes a more phenomenological approach integrating Virtual Reality modelling with GIS, thus emphasising the importance of engagement with a locale through experiential analysis.
+
+### 1.3.2 Technology
+
+Several themes worth mentioning are concerned with the technology of GIS, its application and functionality rather than application-specific case studies. Temporality and 3-dimensional GIS are areas that have seen relatively little work in archaeology although an early paper on archaeology, time and GIS by @castleford1992archaeology is still important and @lock1996danebury demonstrate the potential of fully functional 3D GIS using a voxel data structure for spatio-temporal modelling of excavation data. Other topics of interest are alternative data structures [@ruggles1992abstract], the importance of perception surfaces, effort surfaces and time surfaces [@stead1995humans], modelling ecological change [@verhagen1996use; @gillings1995flood] and the potential of neural networks [@claxton1995future].
+
+### 1.3.3 Intra-site studies
+
+While there is considerable use of CAD for excavation recording and processing there is very little application of GIS. Powlesland has been a champion of integrated on-site digital recording and analysis for many years and has developed his own software [@lyall1996application], as has Arroyo-Bishop [@arroyo1995will]. Conversely, though, @biswell1995gis discuss the severe limitations of modern commercial archaeology in terms of integrating GIS into existing working practices while at the same time demonstrating its potential with a series of intra-site spatial analyses that highlight the difference between CAD and GIS.

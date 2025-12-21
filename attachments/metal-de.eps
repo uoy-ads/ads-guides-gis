@@ -1,0 +1,2136 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Creator: ARC/INFO Version 7.1.1
+%%CreationDate: 6/02/1998 9:40 AM
+%%DocumentProcSets: ARC/INFO_7.1.1_encapsulate 0 0
+%%+ ARC/INFO_7.1.1_illustrator_emulate 0 0
+%%+ ARC/INFO_7.1.1_film_marks 0 0
+%%+ ARC/INFO_7.1.1_image 0 0
+%%+ ARC/INFO_7.1.1_separate 0 0
+%%DocumentSuppliedProcSets: ARC/INFO_7.1.1_encapsulate 0 0
+%%+ ARC/INFO_7.1.1_illustrator_emulate 0 0
+%%+ ARC/INFO_7.1.1_film_marks 0 0
+%%+ ARC/INFO_7.1.1_image 0 0
+%%+ ARC/INFO_7.1.1_separate 0 0
+%%ColorUsage: Color
+%%BoundingBox: 117 7 391 274                
+%%TemplateBox: 117 7 391 274                
+%%EndComments
+%%BeginProlog
+%%BeginProcSet: ARC/INFO_7.1.1_encapsulate 0 0
+
+%
+%  Utility functions
+%
+clippath pathbbox pop pop translate newpath %% [PJH] make origin origin of imaga
+
+/bdf { bind def } def
+
+%
+%  Encapsulation functions
+%
+
+/BEGINEPSFILE { /EPSFsave save def
+                0 setgray 0 setlinecap
+                1 setlinewidth 0 setlinejoin
+                10 setmiterlimit [] 0 setdash newpath
+                /showpage {} def
+              } bdf
+/ENDEPSFILE   { EPSFsave restore } bdf
+
+%%EndProcSet
+%%BeginProcSet: ARC/INFO_7.1.1_illustrator_emulate 0 0
+
+%
+%  Utility functions
+%
+
+/bdf      { bind def } def
+/.strok   { .w setlinewidth .M setmiterlimit
+            .J setlinecap .j setlinejoin stroke } bdf
+/mkz      { 4 {
+                dup 0 lt { pop 0 } if 4 1 roll
+              } repeat
+          } bdf
+/vk2v     { _KK sub dup 0 lt
+            { pop 0 } if
+            _KK add 3 1 roll
+          } bdf
+/cmyk2cmy { /_KK exch def
+            3 { vk2v } repeat
+          } bdf
+/dc       { exch 1 exch sub def } bdf
+/dc_      { exch def } bdf
+/krnprc   { pop pop krnary krncnt get lastx add 0 moveto
+            /lastx currentpoint pop def
+            /krncnt krncnt 1 add def } bdf
+
+%
+%  ISOLatin1 font encoding utilities
+%
+
+/validISOLatin1 { /ISOLatin1Encoding where { pop } {
+   /ISOLatin1Encoding[/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+   /.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+   /.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+   /.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam
+   /quotedbl/numbersign/dollar/percent/ampersand/quoteright/parenleft
+   /parenright/asterisk/plus/comma/minus/period/slash/zero/one/two/three/four
+   /five/six/seven/eight/nine/colon/semicolon/less/equal/greater/question/at
+   /A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash
+   /bracketright/asciicircum/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m/n
+   /o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright/asciitilde/.notdef/.notdef
+   /.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+   /.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/dotlessi/grave/acute
+   /circumflex/tilde/macron/breve/dotaccent/dieresis/.notdef/ring/cedilla
+   /.notdef/hungarumlaut/ogonek/caron/space/exclamdown/cent/sterling/currency
+   /yen/brokenbar/section/dieresis/copyright/ordfeminine/guillemotleft
+   /logicalnot/hyphen/registered/macron/degree/plusminus/twosuperior
+   /threesuperior/acute/mu/paragraph/periodcentered/cedilla/onesuperior
+   /ordmasculine/guillemotright/onequarter/onehalf/threequarters/questiondown
+   /Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla/Egrave/Eacute
+   /Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve
+   /Oacute/Ocircumflex/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute
+   /Ucircumflex/Udieresis/Yacute/Thorn/germandbls/agrave/aacute/acircumflex
+   /atilde/adieresis/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis
+   /igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+   /otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis/yacute
+   /thorn/ydieresis]def } ifelse } bdf
+/setISOLatin1font {
+   validISOLatin1 dup findfont dup /ISOLatin1 known
+   1 index /FontType get 3 eq or { exch pop }
+   { dup maxlength 1 add dict dup /DICT_ exch def begin
+   { 1 index /FID eq { pop pop } { def } ifelse } forall
+   /Encoding ISOLatin1Encoding def /ISOLatin1 1 def end
+   DICT_ definefont } ifelse } bdf
+
+%
+%  Illustrator recognized functions
+%
+
+/k { mkz /setcmykcolor where
+     { pop /_k dc_ /_y dc_ /_m dc_ /_c dc_
+       /sc { _c _m _y _k setcmykcolor } def }
+     { cmyk2cmy 2 copy eq 3 index 3 index eq and
+       { pop pop /_k dc /sc { _k setgray } def }
+       { /_b dc /_g dc /_r dc /sc { _r _g _b setrgbcolor } def } ifelse
+     } ifelse
+     /F { sc eofill } def /im { sc _im } def _opon
+   } bdf
+/K { mkz /setcmykcolor where
+     { pop /_K dc_ /_Y dc_ /_M dc_ /_C dc_
+       /SC { _C _M _Y _K setcmykcolor } def }
+     { cmyk2cmy 2 copy eq 3 index 3 index eq and
+       { pop pop /_K dc /SC { _K setgray } def }
+       { /_B dc /_G dc /_R dc /SC { _R _G _B setrgbcolor } def } ifelse
+     } ifelse
+     /S { SC .strok } def /IM { SC _im } def
+   } bdf
+/x { dup -1 eq { pop } if pop pop /setcmykcolor where
+     { pop /_k dc_ /_y dc_ /_m dc_ /_c dc_
+       /sc { _c _m _y _k setcmykcolor } def }
+     { cmyk2cmy 2 copy eq 3 index 3 index eq and
+       { pop pop /_k dc /sc { _k setgray } def }
+       { /_b dc /_g dc /_r dc /sc { _r _g _b setrgbcolor } def } ifelse
+     } ifelse
+     /F { sc eofill } def /im { sc _im } def _opon
+   } bdf
+/X { dup -1 eq { pop } if pop pop /setcmykcolor where
+     { pop /_K dc_ /_Y dc_ /_M dc_ /_C dc_
+       /SC { _C _M _Y _K setcmykcolor } def }
+     { cmyk2cmy 2 copy eq 3 index 3 index eq and
+       { pop pop /_K dc /SC { _K setgray } def }
+       { /_B dc /_G dc /_R dc /SC { _R _G _B setrgbcolor } def } ifelse
+     } ifelse
+     /S { SC .strok } def /IM { SC _im } def
+   } bdf
+/B { gsave F grestore } bdf
+/l { lineto } bdf
+/m { moveto } bdf
+/c { curveto } bdf
+/w { /.w exch def } bdf
+/M { /.M exch def } bdf
+/J { /.J exch def } bdf
+/j { /.j exch def } bdf
+/u {} bdf
+/U {} bdf
+/z { grestore
+     5 -1 roll setISOLatin1font
+     5 -1 roll scalefont setfont pop
+     /_kern exch def pop
+     gsave
+   } bdf
+/e { gsave concat } bdf
+/t { sc 0 0 moveto /krnary where
+     { pop /krncnt 0 def /lastx 0 def { krnprc } exch kshow pop }
+     { _kern exch 0 exch ashow pop } ifelse } bdf
+/T { grestore } bdf
+/F4 { m l l l F } bdf
+/F3 { m l l F } bdf
+
+%
+%  Tile eofill functions
+%
+
+/_opon { /_op true def } bdf
+/_opof { /_op false def } bdf
+/trTb { _opof } bdf
+
+/_im { imagemask } bdf
+/eatim { 5{pop}repeat } bdf
+
+/TL { [ 3 index 0 0 5 index neg 0 7 index ] exch
+   _op { 4 copy 4 2 roll false 5 -2 roll im } if
+   4 2 roll true 5 -2 roll IM } bdf
+
+/TF { gsave clip pathbbox newpath
+   4 -2 roll exch 5 index div cvi 5 index mul exch 4 index div cvi 4 index mul
+   2 copy translate 3 -1 roll exch sub 3 1 roll sub 3 index div cvi 1 add
+   exch 2 index div cvi 1 add 4 2 roll scale
+   {  gsave dup
+      {  1 index cvx exec
+         1 0 translate
+      } repeat
+      grestore 0 1 translate
+   } repeat
+   grestore newpath pop pop
+} bdf
+
+%%EndProcSet
+%%BeginProcSet: ARC/INFO_7.1.1_film_marks 0 0
+
+%
+%  Utility functions
+%
+
+/bdf { bind def } def
+
+%
+%  Film mark functions
+%
+
+/regmrk    { gsave translate .1 setlinewidth
+             0 setgray
+             0 0 8 0 360 arc stroke
+             0 0 4 0 360 arc eofill
+             -10 0 moveto 10 0 lineto
+             0 -10 moveto 0 10 lineto stroke
+             1 setgray
+             -4 0 moveto 4 0 lineto
+             0 -4 moveto 0 4 lineto stroke grestore
+           } bdf
+/crpmrk_ll { gsave translate 0 setgray
+             .72 setlinewidth
+             0 18 moveto 0 0 lineto 18 0 lineto stroke
+             .1 setlinewidth
+             -24 0 moveto -4 0 lineto stroke
+             0 -24 moveto 0 -4 lineto stroke grestore
+           } bdf
+/crpmrk_ul { gsave translate 0 setgray
+             .72 setlinewidth
+             0 -18 moveto 0 0 lineto 18 0 lineto stroke
+             .1 setlinewidth
+             -24 0 moveto -4 0 lineto stroke
+             0 24 moveto 0 4 lineto stroke grestore
+           } bdf
+/crpmrk_ur { gsave translate 0 setgray
+             .72 setlinewidth
+             0 -18 moveto 0 0 lineto -18 0 lineto stroke
+             .1 setlinewidth
+             24 0 moveto 4 0 lineto stroke
+             0 24 moveto 0 4 lineto stroke grestore
+           } bdf
+/crpmrk_lr { gsave translate 0 setgray
+             .72 setlinewidth
+             0 18 moveto 0 0 lineto -18 0 lineto stroke
+             .1 setlinewidth
+             24 0 moveto 4 0 lineto stroke
+             0 -24 moveto 0 -4 lineto stroke grestore
+           } bdf
+/barmrk    { gsave translate
+             /intense 1. def
+             11 {
+                  intense setgray
+                  0 0 moveto 16 0 lineto 16 16 lineto
+                  0 16 lineto 0 0 lineto eofill
+                  0 16 translate
+                  /intense intense .1 sub def
+                } repeat
+             grestore
+           } bdf
+
+%%EndProcSet
+%%BeginProcSet: ARC/INFO_7.1.1_image 0 0
+
+%
+%  Utility functions
+%
+
+/bdf    { bind def } def
+/in     { /cfnc 1   string def
+          /val  ll  string def
+          /buf1 381 string def
+          /buf2 508 string def
+        } bdf
+/imgtrn { 6 -2 roll translate 4 -2 roll scale } bdf
+/imgmtx { [ 3 index 0 0 5 index neg 0 0 ] } bdf
+/as_set { /rdstr { readhexstring pop pop } def } bdf
+/bn_set { /rdstr { readstring pop pop } def } bdf
+/rdfunc { currentfile cfnc rdstr } bdf
+/rd_buf { rdfunc cfnc 0 get dup 127 le
+          { /ibf buf1 0 3 index ll mul getinterval def
+            currentfile ibf rdstr pop }
+          { 128 sub currentfile val rdstr
+            /ibf buf1 0 3 index ll mul getinterval def /cnt 0 def
+            { ibf cnt ll mul val putinterval /cnt cnt 1 add def } repeat }
+          ifelse
+        } bdf
+/cl2bw  { /tbf ibf def /ibf buf2 0 ibf length 3 div cvi getinterval def
+          /cnt 0 def ibf length
+          { ibf cnt 3 div cvi
+            3 { tbf cnt get /cnt cnt 1 add def } repeat
+            .11 mul exch .59 mul add exch .3 mul add .1 add cvi put
+          } repeat
+        } bdf
+/r2cimg { /tbf ibf def /ibf buf2 0 ibf length 3 div 4 mul cvi getinterval def
+          /cnt 0 def tbf length 3 div cvi
+          { 3 { tbf cnt get 255 exch sub /cnt cnt 1 add def } repeat
+            2 copy eq 3 index 3 index eq and
+            { pop pop 0 exch 0 exch 0 exch }
+            { 0 } ifelse
+            /cnt_ cnt 3 div 4 mul 1 sub cvi def
+            4 { ibf exch cnt_ exch put /cnt_ cnt_ 1 sub def } repeat
+          } repeat
+        } bdf
+
+%
+%  Image functions
+%
+
+/imgmsk { /sc where { pop sc } if /ll 1 def in imgtrn true imgmtx
+          { rd_buf ibf } imagemask
+        } bdf
+/gryimg { /ll 1 def in imgtrn 8 imgmtx { rd_buf ibf } image } bdf
+/mnoimg { /ll 1 def in imgtrn 1 imgmtx { rd_buf ibf } image } bdf
+/cl_img { /ll 3 def in imgtrn 8 imgmtx { rd_buf r2cimg ibf }
+        false 4 colorimage } bdf
+/bw_img { /ll 3 def in imgtrn 8 imgmtx { rd_buf cl2bw ibf } image } bdf
+
+/imgmsk_a { as_set imgmsk } bdf
+/gryimg_a { as_set gryimg } bdf
+/mnoimg_a { as_set mnoimg } bdf
+/clrimg_a { as_set /colorimage where { pop cl_img } { bw_img } ifelse } bdf
+/imgmsk_b { bn_set imgmsk } bdf
+/gryimg_b { bn_set gryimg } bdf
+/mnoimg_b { bn_set mnoimg } bdf
+/clrimg_b { bn_set /colorimage where { pop cl_img } { bw_img } ifelse } bdf
+
+%%EndProcSet
+%%BeginProcSet: ARC/INFO_7.1.1_separate 0 0
+
+%
+%  Utility functions
+%
+
+/bdf    { bind def } def
+/txim   { /t { sc 0 0 moveto _kern exch 0 exch ashow pop } def
+          /imgmsk_a { as_set imgmsk } def
+          /imgmsk_b { bn_set imgmsk } def
+        } bdf
+/notxim { /t { pop pop } def
+          /imgmsk_a { as_set imgmskeat } def
+          /imgmsk_b { bn_set imgmskeat } def
+        } bdf
+/g      { /_b exch def
+          /sc { _b setgray } def
+          /F { sc eofill } def /im { sc _im } def _opon
+        } bdf
+/G      { /_B exch def
+          /SC { _B setgray } def
+          /S { SC .strok } def /IM { SC _im } def
+        } bdf
+/ksepr  { txim dup 0 lt
+                { pop /F { newpath } def /im { eatim } def _opof notxim }
+                { 1 exch sub /_b exch def /sc { _b setgray } def
+                  /F { sc eofill } def /im { sc _im } def _opon }
+                ifelse
+        } bdf
+/Ksepr  { dup 0 lt
+                { pop /S { newpath } def /IM { eatim } def }
+                { 1 exch sub /_B exch def /S { _B setgray .strok } def
+                  /IM { _B setgray _im } def }
+                ifelse
+        } bdf
+/cl2sep { /tbf ibf def /ibf buf2 0 ibf length 3 div cvi getinterval def
+          /cnt 0 def ibf length
+          { ibf cnt 3 div cvi
+            3 { tbf cnt get  /cnt cnt 1 add def } repeat
+            3 { 255 exch sub 3 1 roll } repeat
+            3 copy 1 index eq 3 1 roll eq and
+            { pop pop 0 0 0 4 -1 roll } { 0 } ifelse
+            4 { 255 exch sub 4 1 roll } repeat
+            imgsep put
+          } repeat
+        } bdf
+/imgmskeat { /ll 1 def in 6 2 roll 4 { pop } repeat mul 8 div cvi
+             { rd_buf ibf length sub dup 0 le { pop exit } if } loop
+           } bdf
+/gryimgeat { /ll 1 def in 6 2 roll 4 { pop } repeat mul cvi
+             { rd_buf ibf length sub dup 0 le { pop exit } if } loop
+           } bdf
+/mnoimgeat { /ll 1 def in 6 2 roll 4 { pop } repeat
+             exch 7 add 8 div cvi mul cvi
+             { rd_buf ibf length sub dup 0 le { pop exit } if } loop
+           } bdf
+/clrimgeat { /ll 3 def in 6 2 roll 4 { pop } repeat mul ll mul cvi
+             { rd_buf ibf length sub dup 0 le { pop exit } if } loop
+           } bdf
+/passset1 {
+            /k { ucrem popit ksepr } def
+            /K { ucrem popit Ksepr } def
+            /x { txim dup -1 eq
+                   { 7 { pop } repeat /sc { 1 setgray } def
+                   /F { sc eofill } def /im { sc _im } def _opon notxim }
+                   { 6 { pop } repeat /F { newpath } def
+                     /im { eatim } def _opof notxim }
+                   ifelse
+               } def
+            /X { dup -1 eq
+                   { 7 { pop } repeat /S { 1 setgray .strok } def
+                     /IM { 1 setgray _im } def }
+                   { 6 { pop } repeat /S { newpath } def
+                     /IM { eatim } def }
+                   ifelse
+               } def
+            /gryimg { gryimgeat } def
+            /mnoimg { mnoimgeat } def
+            /clrimg { /imgsep { popit } def /ll 3 def in
+                      imgtrn 8 imgmtx { rd_buf cl2sep ibf } image } bdf
+            /clrimg_a { as_set clrimg } def
+            /clrimg_b { bn_set clrimg } def
+          } bdf
+/ucrem {
+         dup 0 eq {
+            4 copy pop 1 index dup 0 lt not 5 1 roll eq 3 1 roll eq and and
+            { pop pop pop 0 0 0 4 -1 roll } if
+         } if
+       } bdf
+
+%
+%  Separation functions
+%
+
+/CynPass  { /popit { pop pop pop } def passset1 } bdf
+/MagPass  { /popit { pop pop exch pop } def passset1 } bdf
+/YelPass  { /popit { pop exch pop exch pop } def passset1 } bdf
+/BlkPass  {
+            /k { ucrem 3 { exch pop } repeat ksepr } def
+            /K { ucrem 3 { exch pop } repeat Ksepr } def
+            /x { txim dup -1 eq
+                   { 7 { pop } repeat /sc { 1 setgray } def
+                   /F { sc eofill } def /im { sc _im } def _opon notxim }
+                   { 6 { pop } repeat /F { newpath } def
+                     /im { eatim } def _opof notxim }
+                   ifelse
+               } def
+            /X { dup -1 eq
+                   { 7 { pop } repeat /S { 1 setgray .strok } def
+                     /IM { 1 setgray _im } def }
+                   { 6 { pop } repeat /S { newpath } def
+                     /IM { eatim } def }
+                   ifelse
+               } def
+            /clrimg { /imgsep { 3 { exch pop } repeat } def /ll 3 def in
+                      imgtrn 8 imgmtx { rd_buf cl2sep ibf } image } bdf
+            /clrimg_a { as_set clrimg } def
+            /clrimg_b { bn_set clrimg } def
+          } bdf
+/CustPass {
+            /_CC exch def
+            /k { 4 { pop } repeat /sc { 1 setgray } def
+                 /F { sc eofill } def /im { sc _im } def _opon } def
+            /K { 4 { pop } repeat /S { 1 setgray .strok } def
+                 /IM { 1 setgray _im } def } def
+            /x { txim dup -1 eq
+                   { pop exch _CC eq
+                       { 1 exch sub /_b exch def /sc { _b setgray } def
+                         /F { sc eofill } def /im { sc _im } def _opon
+                         4 { pop } repeat }
+                       { 5 { pop } repeat /sc { 1 setgray } def
+                         /F { sc eofill } def /im { sc _im } def _opon }
+                       ifelse
+                   }
+                   { exch _CC eq
+                       { 1 exch sub /_b exch def /sc { _b setgray } def
+                         /F { sc eofill } def /im { sc _im } def _opon
+                         4 { pop } repeat }
+                       { /F { newpath } def /im { eatim } def _opof
+                         notxim 5 { pop } repeat }
+                       ifelse
+                   }
+                   ifelse
+               } def
+            /X { dup -1 eq
+                   { pop exch _CC eq
+                       { 1 exch sub /_B exch def /S { _B setgray .strok } def
+                         /IM { _B setgray _im } def 4 { pop } repeat }
+                       { 5 { pop } repeat /S { 1 setgray .strok } def
+                         /IM { 1 setgray _im } def }
+                       ifelse
+                   }
+                   { exch _CC eq
+                       { 1 exch sub /_B exch def /S { _B setgray .strok } def
+                         /IM { _B setgray _im } def 4 { pop } repeat }
+                       { /S { newpath } def /IM { eatim } def
+                         5 { pop } repeat }
+                       ifelse
+                   }
+                   ifelse
+               } def
+            /g { dup -1 eq
+                   { pop _CC eq
+                       { /_b exch def /sc { _b setgray } def
+                         /F { sc eofill } def /im { sc _im } def _opon }
+                       { pop /sc { 1 setgray } def
+                         /F { sc eofill } def /im { sc _im } def _opon }
+                       ifelse
+                   }
+                   { _CC eq
+                       { /_b exch def /sc { _b setgray } def
+                         /F { sc eofill } def /im { sc _im } def _opon }
+                       { pop /F { newpath } def /im { eatim } def _opof }
+                       ifelse
+                   }
+                   ifelse
+               } def
+            /G { dup -1 eq
+                   { pop _CC eq
+                        { /_B exch def /SC { _B setgray } def
+                          /S { SC .strok } def /IM { SC _im } def }
+                        { pop /SC { 1 setgray } def
+                          /S { SC .strok } def /IM { SC _im } def }
+                        ifelse
+                   }
+                   { _CC eq
+                        { /_B exch def /SC { _B setgray } def
+                          /S { SC .strok } def /IM { SC _im } def }
+                        { pop /S { newpath } def /IM { eatim } def }
+                        ifelse
+                   }
+                   ifelse
+               } def
+            /gryimg { gryimgeat } def
+            /mnoimg { mnoimgeat } def
+            /clrimg { clrimgeat } def
+            /clrimg_a { as_set clrimg } def
+            /clrimg_b { bn_set clrimg } def
+          } bdf
+
+%%EndProcSet
+%%EndProlog
+%%BeginSetup
+/PSSAVE save def
+newpath
+%%EndSetup
+512 dict begin
+gsave
+0 j
+0 J
+3.85 M
+0.72 w
+0.000 0.000 0.000 0.000 K
+0.24 w
+0 J
+0 j
+0.000 0.000 0.000 1.000 K
+grestore gsave
+113.28 5.76 m
+396.72 5.76 l
+396.72 277.44 l
+113.28 277.44 l
+113.28 5.76 l
+clip newpath
+352.32 68.88 m
+352.32 70.08 l
+354.00 70.08 l
+354.00 68.88 l
+352.32 68.88 l
+354.00 70.08 l
+352.32 70.08 l
+354.00 68.88 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+309.36 81.12 m
+309.36 82.32 l
+311.04 82.32 l
+311.04 81.12 l
+309.36 81.12 l
+311.04 82.32 l
+309.36 82.32 l
+311.04 81.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+325.68 60.72 m
+325.68 61.92 l
+327.36 61.92 l
+327.36 60.72 l
+325.68 60.72 l
+327.36 61.92 l
+325.68 61.92 l
+327.36 60.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+299.28 174.72 m
+299.28 176.16 l
+300.96 176.16 l
+300.96 174.72 l
+299.28 174.72 l
+300.96 176.16 l
+299.28 176.16 l
+300.96 174.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+268.56 70.80 m
+268.56 72.24 l
+270.24 72.24 l
+270.24 70.80 l
+268.56 70.80 l
+270.24 72.24 l
+268.56 72.24 l
+270.24 70.80 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+127.92 248.16 m
+127.92 249.60 l
+129.60 249.60 l
+129.60 248.16 l
+127.92 248.16 l
+129.60 249.60 l
+127.92 249.60 l
+129.60 248.16 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+299.28 40.32 m
+299.28 41.52 l
+300.96 41.52 l
+300.96 40.32 l
+299.28 40.32 l
+300.96 41.52 l
+299.28 41.52 l
+300.96 40.32 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+282.96 64.80 m
+282.96 66.00 l
+284.64 66.00 l
+284.64 64.80 l
+282.96 64.80 l
+284.64 66.00 l
+282.96 66.00 l
+284.64 64.80 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+231.84 103.44 m
+231.84 104.88 l
+233.52 104.88 l
+233.52 103.44 l
+231.84 103.44 l
+233.52 104.88 l
+231.84 104.88 l
+233.52 103.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+211.68 123.84 m
+211.68 125.28 l
+213.36 125.28 l
+213.36 123.84 l
+211.68 123.84 l
+213.36 125.28 l
+211.68 125.28 l
+213.36 123.84 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+321.60 44.40 m
+321.60 45.60 l
+323.28 45.60 l
+323.28 44.40 l
+321.60 44.40 l
+323.28 45.60 l
+321.60 45.60 l
+323.28 44.40 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+191.28 126.00 m
+191.28 127.20 l
+192.96 127.20 l
+192.96 126.00 l
+191.28 126.00 l
+192.96 127.20 l
+191.28 127.20 l
+192.96 126.00 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+144.24 140.16 m
+144.24 141.60 l
+145.92 141.60 l
+145.92 140.16 l
+144.24 140.16 l
+145.92 141.60 l
+144.24 141.60 l
+145.92 140.16 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+295.20 248.16 m
+295.20 249.60 l
+296.88 249.60 l
+296.88 248.16 l
+295.20 248.16 l
+296.88 249.60 l
+295.20 249.60 l
+296.88 248.16 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+132.00 91.20 m
+132.00 92.64 l
+133.68 92.64 l
+133.68 91.20 l
+132.00 91.20 l
+133.68 92.64 l
+132.00 92.64 l
+133.68 91.20 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+172.80 172.80 m
+172.80 174.24 l
+174.48 174.24 l
+174.48 172.80 l
+172.80 172.80 l
+174.48 174.24 l
+172.80 174.24 l
+174.48 172.80 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+260.40 150.24 m
+260.40 151.68 l
+262.08 151.68 l
+262.08 150.24 l
+260.40 150.24 l
+262.08 151.68 l
+260.40 151.68 l
+262.08 150.24 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+264.48 113.76 m
+264.48 114.96 l
+266.16 114.96 l
+266.16 113.76 l
+264.48 113.76 l
+266.16 114.96 l
+264.48 114.96 l
+266.16 113.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+266.64 107.52 m
+266.64 108.96 l
+268.32 108.96 l
+268.32 107.52 l
+266.64 107.52 l
+268.32 108.96 l
+266.64 108.96 l
+268.32 107.52 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+278.88 62.64 m
+278.88 64.08 l
+280.56 64.08 l
+280.56 62.64 l
+278.88 62.64 l
+280.56 64.08 l
+278.88 64.08 l
+280.56 62.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+205.44 60.72 m
+205.44 61.92 l
+207.12 61.92 l
+207.12 60.72 l
+205.44 60.72 l
+207.12 61.92 l
+205.44 61.92 l
+207.12 60.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+389.04 87.12 m
+389.04 88.56 l
+390.72 88.56 l
+390.72 87.12 l
+389.04 87.12 l
+390.72 88.56 l
+389.04 88.56 l
+390.72 87.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+376.80 56.64 m
+376.80 57.84 l
+378.48 57.84 l
+378.48 56.64 l
+376.80 56.64 l
+378.48 57.84 l
+376.80 57.84 l
+378.48 56.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+378.72 28.08 m
+378.72 29.52 l
+380.40 29.52 l
+380.40 28.08 l
+378.72 28.08 l
+380.40 29.52 l
+378.72 29.52 l
+380.40 28.08 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+311.52 83.04 m
+311.52 84.48 l
+313.20 84.48 l
+313.20 83.04 l
+311.52 83.04 l
+313.20 84.48 l
+311.52 84.48 l
+313.20 83.04 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+211.68 68.88 m
+211.68 70.08 l
+213.36 70.08 l
+213.36 68.88 l
+211.68 68.88 l
+213.36 70.08 l
+211.68 70.08 l
+213.36 68.88 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+217.68 195.12 m
+217.68 196.56 l
+219.36 196.56 l
+219.36 195.12 l
+217.68 195.12 l
+219.36 196.56 l
+217.68 196.56 l
+219.36 195.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+258.48 40.32 m
+258.48 41.52 l
+260.16 41.52 l
+260.16 40.32 l
+258.48 40.32 l
+260.16 41.52 l
+258.48 41.52 l
+260.16 40.32 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+348.24 93.36 m
+348.24 94.56 l
+349.92 94.56 l
+349.92 93.36 l
+348.24 93.36 l
+349.92 94.56 l
+348.24 94.56 l
+349.92 93.36 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+260.40 54.48 m
+260.40 55.92 l
+262.08 55.92 l
+262.08 54.48 l
+260.40 54.48 l
+262.08 55.92 l
+260.40 55.92 l
+262.08 54.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+144.24 119.76 m
+144.24 121.20 l
+145.92 121.20 l
+145.92 119.76 l
+144.24 119.76 l
+145.92 121.20 l
+144.24 121.20 l
+145.92 119.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+327.84 111.60 m
+327.84 113.04 l
+329.52 113.04 l
+329.52 111.60 l
+327.84 111.60 l
+329.52 113.04 l
+327.84 113.04 l
+329.52 111.60 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+280.80 133.92 m
+280.80 135.36 l
+282.48 135.36 l
+282.48 133.92 l
+280.80 133.92 l
+282.48 135.36 l
+280.80 135.36 l
+282.48 133.92 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+284.88 19.92 m
+284.88 21.36 l
+286.56 21.36 l
+286.56 19.92 l
+284.88 19.92 l
+286.56 21.36 l
+284.88 21.36 l
+286.56 19.92 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+350.16 119.76 m
+350.16 121.20 l
+351.84 121.20 l
+351.84 119.76 l
+350.16 119.76 l
+351.84 121.20 l
+350.16 121.20 l
+351.84 119.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+199.44 189.12 m
+199.44 190.56 l
+201.12 190.56 l
+201.12 189.12 l
+199.44 189.12 l
+201.12 190.56 l
+199.44 190.56 l
+201.12 189.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+317.52 148.32 m
+317.52 149.76 l
+319.20 149.76 l
+319.20 148.32 l
+317.52 148.32 l
+319.20 149.76 l
+317.52 149.76 l
+319.20 148.32 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+274.80 89.28 m
+274.80 90.48 l
+276.48 90.48 l
+276.48 89.28 l
+274.80 89.28 l
+276.48 90.48 l
+274.80 90.48 l
+276.48 89.28 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+303.36 99.36 m
+303.36 100.80 l
+305.04 100.80 l
+305.04 99.36 l
+303.36 99.36 l
+305.04 100.80 l
+303.36 100.80 l
+305.04 99.36 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+311.52 225.84 m
+311.52 227.04 l
+313.20 227.04 l
+313.20 225.84 l
+311.52 225.84 l
+313.20 227.04 l
+311.52 227.04 l
+313.20 225.84 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+217.68 127.92 m
+217.68 129.36 l
+219.36 129.36 l
+219.36 127.92 l
+217.68 127.92 l
+219.36 129.36 l
+217.68 129.36 l
+219.36 127.92 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+336.00 107.52 m
+336.00 108.96 l
+337.68 108.96 l
+337.68 107.52 l
+336.00 107.52 l
+337.68 108.96 l
+336.00 108.96 l
+337.68 107.52 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+346.08 146.16 m
+346.08 147.60 l
+347.76 147.60 l
+347.76 146.16 l
+346.08 146.16 l
+347.76 147.60 l
+346.08 147.60 l
+347.76 146.16 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+280.80 272.64 m
+280.80 274.08 l
+282.48 274.08 l
+282.48 272.64 l
+280.80 272.64 l
+282.48 274.08 l
+280.80 274.08 l
+282.48 272.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+211.68 205.44 m
+211.68 206.88 l
+213.36 206.88 l
+213.36 205.44 l
+211.68 205.44 l
+213.36 206.88 l
+211.68 206.88 l
+213.36 205.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+225.84 142.08 m
+225.84 143.52 l
+227.52 143.52 l
+227.52 142.08 l
+225.84 142.08 l
+227.52 143.52 l
+225.84 143.52 l
+227.52 142.08 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+180.96 119.76 m
+180.96 121.20 l
+182.64 121.20 l
+182.64 119.76 l
+180.96 119.76 l
+182.64 121.20 l
+180.96 121.20 l
+182.64 119.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+179.04 105.60 m
+179.04 106.80 l
+180.72 106.80 l
+180.72 105.60 l
+179.04 105.60 l
+180.72 106.80 l
+179.04 106.80 l
+180.72 105.60 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+203.52 54.48 m
+203.52 55.92 l
+205.20 55.92 l
+205.20 54.48 l
+203.52 54.48 l
+205.20 55.92 l
+203.52 55.92 l
+205.20 54.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+270.72 123.84 m
+270.72 125.28 l
+272.40 125.28 l
+272.40 123.84 l
+270.72 123.84 l
+272.40 125.28 l
+270.72 125.28 l
+272.40 123.84 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+307.44 74.88 m
+307.44 76.32 l
+309.12 76.32 l
+309.12 74.88 l
+307.44 74.88 l
+309.12 76.32 l
+307.44 76.32 l
+309.12 74.88 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+313.44 60.72 m
+313.44 61.92 l
+315.12 61.92 l
+315.12 60.72 l
+313.44 60.72 l
+315.12 61.92 l
+313.44 61.92 l
+315.12 60.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+146.40 156.48 m
+146.40 157.92 l
+148.08 157.92 l
+148.08 156.48 l
+146.40 156.48 l
+148.08 157.92 l
+146.40 157.92 l
+148.08 156.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+183.12 166.56 m
+183.12 168.00 l
+184.80 168.00 l
+184.80 166.56 l
+183.12 166.56 l
+184.80 168.00 l
+183.12 168.00 l
+184.80 166.56 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+179.04 170.64 m
+179.04 172.08 l
+180.72 172.08 l
+180.72 170.64 l
+179.04 170.64 l
+180.72 172.08 l
+179.04 172.08 l
+180.72 170.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+154.56 174.72 m
+154.56 176.16 l
+156.24 176.16 l
+156.24 174.72 l
+154.56 174.72 l
+156.24 176.16 l
+154.56 176.16 l
+156.24 174.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+154.56 162.48 m
+154.56 163.92 l
+156.24 163.92 l
+156.24 162.48 l
+154.56 162.48 l
+156.24 163.92 l
+154.56 163.92 l
+156.24 162.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+150.48 170.64 m
+150.48 172.08 l
+152.16 172.08 l
+152.16 170.64 l
+150.48 170.64 l
+152.16 172.08 l
+150.48 172.08 l
+152.16 170.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+156.48 189.12 m
+156.48 190.56 l
+158.16 190.56 l
+158.16 189.12 l
+156.48 189.12 l
+158.16 190.56 l
+156.48 190.56 l
+158.16 189.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+197.28 136.08 m
+197.28 137.52 l
+198.96 137.52 l
+198.96 136.08 l
+197.28 136.08 l
+198.96 137.52 l
+197.28 137.52 l
+198.96 136.08 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+187.20 136.08 m
+187.20 137.52 l
+188.88 137.52 l
+188.88 136.08 l
+187.20 136.08 l
+188.88 137.52 l
+187.20 137.52 l
+188.88 136.08 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+154.56 195.12 m
+154.56 196.56 l
+156.24 196.56 l
+156.24 195.12 l
+154.56 195.12 l
+156.24 196.56 l
+154.56 196.56 l
+156.24 195.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+219.84 142.08 m
+219.84 143.52 l
+221.52 143.52 l
+221.52 142.08 l
+219.84 142.08 l
+221.52 143.52 l
+219.84 143.52 l
+221.52 142.08 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+217.68 109.68 m
+217.68 110.88 l
+219.36 110.88 l
+219.36 109.68 l
+217.68 109.68 l
+219.36 110.88 l
+217.68 110.88 l
+219.36 109.68 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+219.84 138.00 m
+219.84 139.44 l
+221.52 139.44 l
+221.52 138.00 l
+219.84 138.00 l
+221.52 139.44 l
+219.84 139.44 l
+221.52 138.00 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+156.48 123.84 m
+156.48 125.28 l
+158.16 125.28 l
+158.16 123.84 l
+156.48 123.84 l
+158.16 125.28 l
+156.48 125.28 l
+158.16 123.84 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+207.60 156.48 m
+207.60 157.92 l
+209.28 157.92 l
+209.28 156.48 l
+207.60 156.48 l
+209.28 157.92 l
+207.60 157.92 l
+209.28 156.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+134.16 126.00 m
+134.16 127.20 l
+135.84 127.20 l
+135.84 126.00 l
+134.16 126.00 l
+135.84 127.20 l
+134.16 127.20 l
+135.84 126.00 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+209.52 154.32 m
+209.52 155.76 l
+211.20 155.76 l
+211.20 154.32 l
+209.52 154.32 l
+211.20 155.76 l
+209.52 155.76 l
+211.20 154.32 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+199.44 168.72 m
+199.44 170.16 l
+201.12 170.16 l
+201.12 168.72 l
+199.44 168.72 l
+201.12 170.16 l
+199.44 170.16 l
+201.12 168.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+244.08 81.12 m
+244.08 82.32 l
+245.76 82.32 l
+245.76 81.12 l
+244.08 81.12 l
+245.76 82.32 l
+244.08 82.32 l
+245.76 81.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+199.44 127.92 m
+199.44 129.36 l
+201.12 129.36 l
+201.12 127.92 l
+199.44 127.92 l
+201.12 129.36 l
+199.44 129.36 l
+201.12 127.92 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+172.80 180.96 m
+172.80 182.40 l
+174.48 182.40 l
+174.48 180.96 l
+172.80 180.96 l
+174.48 182.40 l
+172.80 182.40 l
+174.48 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+254.40 113.76 m
+254.40 114.96 l
+256.08 114.96 l
+256.08 113.76 l
+254.40 113.76 l
+256.08 114.96 l
+254.40 114.96 l
+256.08 113.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+205.44 146.16 m
+205.44 147.60 l
+207.12 147.60 l
+207.12 146.16 l
+205.44 146.16 l
+207.12 147.60 l
+205.44 147.60 l
+207.12 146.16 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+148.32 246.24 m
+148.32 247.44 l
+150.00 247.44 l
+150.00 246.24 l
+148.32 246.24 l
+150.00 247.44 l
+148.32 247.44 l
+150.00 246.24 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+187.20 119.76 m
+187.20 121.20 l
+188.88 121.20 l
+188.88 119.76 l
+187.20 119.76 l
+188.88 121.20 l
+187.20 121.20 l
+188.88 119.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+246.24 132.00 m
+246.24 133.44 l
+247.92 133.44 l
+247.92 132.00 l
+246.24 132.00 l
+247.92 133.44 l
+246.24 133.44 l
+247.92 132.00 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+130.08 81.12 m
+130.08 82.32 l
+131.76 82.32 l
+131.76 81.12 l
+130.08 81.12 l
+131.76 82.32 l
+130.08 82.32 l
+131.76 81.12 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+176.88 123.84 m
+176.88 125.28 l
+178.56 125.28 l
+178.56 123.84 l
+176.88 123.84 l
+178.56 125.28 l
+176.88 125.28 l
+178.56 123.84 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+301.20 113.76 m
+301.20 114.96 l
+302.88 114.96 l
+302.88 113.76 l
+301.20 113.76 l
+302.88 114.96 l
+301.20 114.96 l
+302.88 113.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+158.64 103.44 m
+158.64 104.88 l
+160.32 104.88 l
+160.32 103.44 l
+158.64 103.44 l
+160.32 104.88 l
+158.64 104.88 l
+160.32 103.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+207.60 119.76 m
+207.60 121.20 l
+209.28 121.20 l
+209.28 119.76 l
+207.60 119.76 l
+209.28 121.20 l
+207.60 121.20 l
+209.28 119.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+248.16 97.44 m
+248.16 98.64 l
+249.84 98.64 l
+249.84 97.44 l
+248.16 97.44 l
+249.84 98.64 l
+248.16 98.64 l
+249.84 97.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+172.80 170.64 m
+172.80 172.08 l
+174.48 172.08 l
+174.48 170.64 l
+172.80 170.64 l
+174.48 172.08 l
+172.80 172.08 l
+174.48 170.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+234.00 168.72 m
+234.00 170.16 l
+235.68 170.16 l
+235.68 168.72 l
+234.00 168.72 l
+235.68 170.16 l
+234.00 170.16 l
+235.68 168.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+199.44 103.44 m
+199.44 104.88 l
+201.12 104.88 l
+201.12 103.44 l
+199.44 103.44 l
+201.12 104.88 l
+199.44 104.88 l
+201.12 103.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+148.32 162.48 m
+148.32 163.92 l
+150.00 163.92 l
+150.00 162.48 l
+148.32 162.48 l
+150.00 163.92 l
+148.32 163.92 l
+150.00 162.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+311.52 83.04 m
+311.52 84.48 l
+313.20 84.48 l
+313.20 83.04 l
+311.52 83.04 l
+313.20 84.48 l
+311.52 84.48 l
+313.20 83.04 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+152.40 180.96 m
+152.40 182.40 l
+154.08 182.40 l
+154.08 180.96 l
+152.40 180.96 l
+154.08 182.40 l
+152.40 182.40 l
+154.08 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+152.40 180.96 m
+152.40 182.40 l
+154.08 182.40 l
+154.08 180.96 l
+152.40 180.96 l
+154.08 182.40 l
+152.40 182.40 l
+154.08 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+152.40 180.96 m
+152.40 182.40 l
+154.08 182.40 l
+154.08 180.96 l
+152.40 180.96 l
+154.08 182.40 l
+152.40 182.40 l
+154.08 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+262.56 68.88 m
+262.56 70.08 l
+264.24 70.08 l
+264.24 68.88 l
+262.56 68.88 l
+264.24 70.08 l
+262.56 70.08 l
+264.24 68.88 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+144.24 133.92 m
+144.24 135.36 l
+145.92 135.36 l
+145.92 133.92 l
+144.24 133.92 l
+145.92 135.36 l
+144.24 135.36 l
+145.92 133.92 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+189.12 174.72 m
+189.12 176.16 l
+190.80 176.16 l
+190.80 174.72 l
+189.12 174.72 l
+190.80 176.16 l
+189.12 176.16 l
+190.80 174.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+154.56 158.40 m
+154.56 159.84 l
+156.24 159.84 l
+156.24 158.40 l
+154.56 158.40 l
+156.24 159.84 l
+154.56 159.84 l
+156.24 158.40 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+360.48 93.36 m
+360.48 94.56 l
+362.16 94.56 l
+362.16 93.36 l
+360.48 93.36 l
+362.16 94.56 l
+360.48 94.56 l
+362.16 93.36 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+191.28 150.24 m
+191.28 151.68 l
+192.96 151.68 l
+192.96 150.24 l
+191.28 150.24 l
+192.96 151.68 l
+191.28 151.68 l
+192.96 150.24 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+164.64 172.80 m
+164.64 174.24 l
+166.32 174.24 l
+166.32 172.80 l
+164.64 172.80 l
+166.32 174.24 l
+164.64 174.24 l
+166.32 172.80 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+280.80 101.52 m
+280.80 102.72 l
+282.48 102.72 l
+282.48 101.52 l
+280.80 101.52 l
+282.48 102.72 l
+280.80 102.72 l
+282.48 101.52 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+301.20 109.68 m
+301.20 110.88 l
+302.88 110.88 l
+302.88 109.68 l
+301.20 109.68 l
+302.88 110.88 l
+301.20 110.88 l
+302.88 109.68 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+287.04 74.88 m
+287.04 76.32 l
+288.72 76.32 l
+288.72 74.88 l
+287.04 74.88 l
+288.72 76.32 l
+287.04 76.32 l
+288.72 74.88 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+240.00 64.80 m
+240.00 66.00 l
+241.68 66.00 l
+241.68 64.80 l
+240.00 64.80 l
+241.68 66.00 l
+240.00 66.00 l
+241.68 64.80 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+127.92 197.28 m
+127.92 198.72 l
+129.60 198.72 l
+129.60 197.28 l
+127.92 197.28 l
+129.60 198.72 l
+127.92 198.72 l
+129.60 197.28 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+117.84 207.36 m
+117.84 208.80 l
+119.52 208.80 l
+119.52 207.36 l
+117.84 207.36 l
+119.52 208.80 l
+117.84 208.80 l
+119.52 207.36 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+179.04 156.48 m
+179.04 157.92 l
+180.72 157.92 l
+180.72 156.48 l
+179.04 156.48 l
+180.72 157.92 l
+179.04 157.92 l
+180.72 156.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+168.72 166.56 m
+168.72 168.00 l
+170.40 168.00 l
+170.40 166.56 l
+168.72 166.56 l
+170.40 168.00 l
+168.72 168.00 l
+170.40 166.56 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+179.04 160.56 m
+179.04 162.00 l
+180.72 162.00 l
+180.72 160.56 l
+179.04 160.56 l
+180.72 162.00 l
+179.04 162.00 l
+180.72 160.56 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+168.72 197.28 m
+168.72 198.72 l
+170.40 198.72 l
+170.40 197.28 l
+168.72 197.28 l
+170.40 198.72 l
+168.72 198.72 l
+170.40 197.28 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+180.96 150.24 m
+180.96 151.68 l
+182.64 151.68 l
+182.64 150.24 l
+180.96 150.24 l
+182.64 151.68 l
+180.96 151.68 l
+182.64 150.24 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+193.20 176.88 m
+193.20 178.32 l
+194.88 178.32 l
+194.88 176.88 l
+193.20 176.88 l
+194.88 178.32 l
+193.20 178.32 l
+194.88 176.88 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+168.72 107.52 m
+168.72 108.96 l
+170.40 108.96 l
+170.40 107.52 l
+168.72 107.52 l
+170.40 108.96 l
+168.72 108.96 l
+170.40 107.52 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+313.44 101.52 m
+313.44 102.72 l
+315.12 102.72 l
+315.12 101.52 l
+313.44 101.52 l
+315.12 102.72 l
+313.44 102.72 l
+315.12 101.52 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 0.000 0.000 1.000 K
+331.92 85.20 m
+331.92 86.40 l
+333.60 86.40 l
+333.60 85.20 l
+331.92 85.20 l
+333.60 86.40 l
+331.92 86.40 l
+333.60 85.20 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+346.08 146.16 m
+346.08 147.60 l
+347.76 147.60 l
+347.76 146.16 l
+346.08 146.16 l
+347.76 147.60 l
+346.08 147.60 l
+347.76 146.16 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+179.04 105.60 m
+179.04 106.80 l
+180.72 106.80 l
+180.72 105.60 l
+179.04 105.60 l
+180.72 106.80 l
+179.04 106.80 l
+180.72 105.60 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+313.44 60.72 m
+313.44 61.92 l
+315.12 61.92 l
+315.12 60.72 l
+313.44 60.72 l
+315.12 61.92 l
+313.44 61.92 l
+315.12 60.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+146.40 156.48 m
+146.40 157.92 l
+148.08 157.92 l
+148.08 156.48 l
+146.40 156.48 l
+148.08 157.92 l
+146.40 157.92 l
+148.08 156.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+183.12 166.56 m
+183.12 168.00 l
+184.80 168.00 l
+184.80 166.56 l
+183.12 166.56 l
+184.80 168.00 l
+183.12 168.00 l
+184.80 166.56 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+197.28 136.08 m
+197.28 137.52 l
+198.96 137.52 l
+198.96 136.08 l
+197.28 136.08 l
+198.96 137.52 l
+197.28 137.52 l
+198.96 136.08 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+156.48 123.84 m
+156.48 125.28 l
+158.16 125.28 l
+158.16 123.84 l
+156.48 123.84 l
+158.16 125.28 l
+156.48 125.28 l
+158.16 123.84 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+134.16 126.00 m
+134.16 127.20 l
+135.84 127.20 l
+135.84 126.00 l
+134.16 126.00 l
+135.84 127.20 l
+134.16 127.20 l
+135.84 126.00 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+209.52 154.32 m
+209.52 155.76 l
+211.20 155.76 l
+211.20 154.32 l
+209.52 154.32 l
+211.20 155.76 l
+209.52 155.76 l
+211.20 154.32 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+199.44 168.72 m
+199.44 170.16 l
+201.12 170.16 l
+201.12 168.72 l
+199.44 168.72 l
+201.12 170.16 l
+199.44 170.16 l
+201.12 168.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+172.80 180.96 m
+172.80 182.40 l
+174.48 182.40 l
+174.48 180.96 l
+172.80 180.96 l
+174.48 182.40 l
+172.80 182.40 l
+174.48 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+246.24 132.00 m
+246.24 133.44 l
+247.92 133.44 l
+247.92 132.00 l
+246.24 132.00 l
+247.92 133.44 l
+246.24 133.44 l
+247.92 132.00 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+207.60 119.76 m
+207.60 121.20 l
+209.28 121.20 l
+209.28 119.76 l
+207.60 119.76 l
+209.28 121.20 l
+207.60 121.20 l
+209.28 119.76 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+248.16 97.44 m
+248.16 98.64 l
+249.84 98.64 l
+249.84 97.44 l
+248.16 97.44 l
+249.84 98.64 l
+248.16 98.64 l
+249.84 97.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+172.80 170.64 m
+172.80 172.08 l
+174.48 172.08 l
+174.48 170.64 l
+172.80 170.64 l
+174.48 172.08 l
+172.80 172.08 l
+174.48 170.64 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+234.00 168.72 m
+234.00 170.16 l
+235.68 170.16 l
+235.68 168.72 l
+234.00 168.72 l
+235.68 170.16 l
+234.00 170.16 l
+235.68 168.72 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+199.44 103.44 m
+199.44 104.88 l
+201.12 104.88 l
+201.12 103.44 l
+199.44 103.44 l
+201.12 104.88 l
+199.44 104.88 l
+201.12 103.44 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+152.40 180.96 m
+152.40 182.40 l
+154.08 182.40 l
+154.08 180.96 l
+152.40 180.96 l
+154.08 182.40 l
+152.40 182.40 l
+154.08 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+152.40 180.96 m
+152.40 182.40 l
+154.08 182.40 l
+154.08 180.96 l
+152.40 180.96 l
+154.08 182.40 l
+152.40 182.40 l
+154.08 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+152.40 180.96 m
+152.40 182.40 l
+154.08 182.40 l
+154.08 180.96 l
+152.40 180.96 l
+154.08 182.40 l
+152.40 182.40 l
+154.08 180.96 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+154.56 158.40 m
+154.56 159.84 l
+156.24 159.84 l
+156.24 158.40 l
+154.56 158.40 l
+156.24 159.84 l
+154.56 159.84 l
+156.24 158.40 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+280.80 101.52 m
+280.80 102.72 l
+282.48 102.72 l
+282.48 101.52 l
+280.80 101.52 l
+282.48 102.72 l
+280.80 102.72 l
+282.48 101.52 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+117.84 207.36 m
+117.84 208.80 l
+119.52 208.80 l
+119.52 207.36 l
+117.84 207.36 l
+119.52 208.80 l
+117.84 208.80 l
+119.52 207.36 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+179.04 156.48 m
+179.04 157.92 l
+180.72 157.92 l
+180.72 156.48 l
+179.04 156.48 l
+180.72 157.92 l
+179.04 157.92 l
+180.72 156.48 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+168.72 166.56 m
+168.72 168.00 l
+170.40 168.00 l
+170.40 166.56 l
+168.72 166.56 l
+170.40 168.00 l
+168.72 168.00 l
+170.40 166.56 l
+S
+0.000 0.000 0.000 0.000 K
+0.000 1.000 1.000 0.000 K
+179.04 160.56 m
+179.04 162.00 l
+180.72 162.00 l
+180.72 160.56 l
+179.04 160.56 l
+180.72 162.00 l
+179.04 162.00 l
+180.72 160.56 l
+S
+0.000 0.000 0.000 0.000 K
+u
+0.000 0.000 0.000 1.000 K
+grestore gsave
+0.00 0.00 m
+566.88 0.00 l
+566.88 793.68 l
+0.00 793.68 l
+0.00 0.00 l
+clip newpath
+202.32 28.32 m
+222.72 28.32 l
+S
+U
+u
+202.32 32.40 m
+202.32 24.00 l
+S
+U
+u
+0.000 0.000 0.000 1.000 k
+/Times-Roman 7.966079 0 0 0 z
+[ 1 0 0 1 192.72 24.24 ] e 1 (0) t T
+U
+u
+222.72 28.32 m
+222.72 24.00 l
+S
+U
+u
+save /krnary [ 3.839999 3.839999 1.92  ] def
+[ 1 0 0 1 228.24 18.95999 ] e 4 (10 m) t T
+restore
+U
+u
+save /krnary [ 5.28 3.839999 2.16 2.16 3.359999 6 2.16 1.92 6 3.359999 2.16
+ 3.359999 2.16 1.92 3.839999 3.359999 2.16 3.359999 3.359999 2.16 3.839999
+ 2.4 1.92 2.4 2.16 3.839999 3.839999  ] def
+[ 1 0 0 1 212.4 7.2 ] e 28 (Cottam: metal detector finds) t T
+restore
+U
+showpage
+end
+PSSAVE restore
+%%PageTrailer
+%%Trailer
+%%EOF

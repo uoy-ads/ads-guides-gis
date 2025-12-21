@@ -1,0 +1,52 @@
+## See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id:
+  banner: ads_logo.png
+  title: "GIS Guide to Good Practice"
+  keywords:
+    - jupyter-book
+    - archaeology
+    - GIS
+  authors:
+    - name: Mark Gillings
+      orcid: https://orcid.org/0000-0002-2326-7678
+    - name: Alicia Wise
+      orcid: https://orcid.org/0000-0002-7898-3428
+    - name: Peter Halls
+      orcid: https://orcid.org/0000-0002-3496-2369
+    - name: Gary Lock
+      orcid: https://orcid.org/0000-0003-1132-9859
+    - name: Paul Miller
+    - name: Greg Phillips
+    - name: Nick Ryan
+    - name: David Wheatley
+      orcid: https://orcid.org/0000-0002-7265-704X
+    - name: Tim Evans
+      orcid: https://orcid.org/0000-0002-2725-6730
+    - name: Kieron Niven
+      orcid: https://orcid.org/0000-0002-0537-9238
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/vk98-3372
+  github: uoy-ads/ads-guides-gis
+  toc:
+    - file: index.md
+    - file: content/1-IntroductionToTheGISGuide.md
+    - file: content/2-CreatingAndUsingGISData.md
+    - file: content/3-ArchivingGISDatasets.md
+    - file: content/4-Acknowledgements.md
+    - file: content/5-Appendix1.md
+    - file: content/6-Appendix2.md
+    - file: content/7-Glossary.md
+    - file: content/8-Bibliography.md
+  exports:
+    - format: pdf
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
