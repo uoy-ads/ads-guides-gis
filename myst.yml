@@ -48,5 +48,6 @@ site:
     favicon: images/g2gp_signpost.png
     logo: images/g2gp_signpost.png
     logo_text: Guides to Good Practice
+    logo_url: https://guides.archaeologydataservice.ac.uk/
   parts:
     footer: footer.md
