@@ -1,8 +1,9 @@
 ![ADS_logo](ads_logo.png)
+![ADS_logo](hsds_blue_black.png)
 
 # Introduction
 
-Welcome to the repository for the *GIS Guide to Good Practice*. The guide and this repository is maintained by staff at the [Archaeology Data Service](https://archaeologydataservice.ac.uk/).
+Welcome to the repository for the *GIS Guide to Good Practice*. The guide and this repository is maintained by staff at the [Archaeology Data Service](https://archaeologydataservice.ac.uk/) and [Heritage Science Data Service](https://hsds.ac.uk/).
 
 The published version of this material is available at: https://doi.org/10.5284/vk98-3372
 
